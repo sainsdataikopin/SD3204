@@ -4,6 +4,7 @@
 Pertama-tama, Anda harus memformat sistem file HDFS yang telah dikonfigurasi, buka namenode (server HDFS), dan jalankan perintah berikut.
 
 ```bash
+
 hadoop namenode -format 
 ```
 
@@ -11,7 +12,8 @@ hadoop namenode -format
 Setelah memformat HDFS, mulai sistem berkas terdistribusi. Perintah berikut ini akan memulai namenode serta node data sebagai cluster.
 
 ```bash
-start-all.sh
+C:\hadoop\hadoop-3.3.6\
+sbin/start-all.sh
 ```
 
 Setelah menjalankan perintah di atas, menggunakan browser klik link berikut <http://localhost:9870/explorer.html#/>.
